@@ -1,0 +1,18 @@
+#este es un comentario de linea
+
+#este es un comentario
+#que ocupa varias lineas
+"""
+Este es otro ejemplo 
+de comentario multimedias
+"""
+
+enterro = 42 #numeros enteros
+desimal = 3.1416 #numeros desimale (float)
+logico = True #Boolean
+nombre = shergiok #string
+
+print (type(entero))
+print(type(desimal))
+print(type(logico))
+print(type(nombre))
