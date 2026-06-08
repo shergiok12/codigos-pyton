@@ -8,10 +8,10 @@ Este es otro ejemplo
 de comentario multimedias
 """
 
-enterro = 42 #numeros enteros
+entero = 42 #numeros enteros
 desimal = 3.1416 #numeros desimale (float)
 logico = True #Boolean
-nombre = shergiok #string
+nombre = 'Sergip' #string
 
 print (type(entero))
 print(type(desimal))
