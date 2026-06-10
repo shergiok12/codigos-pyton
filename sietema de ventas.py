@@ -1,4 +1,4 @@
-
+#Marin Moo Sergio Jesus
 # PROGRAMA: Sistema de Venta de un Producto
 # OBJETIVO: Aplicar conceptos básicos de Python (I/O, Casting, Tipos)
 
@@ -6,7 +6,7 @@
 IVA = 0.16
 DESCUENTO = 0.10
 
-# SECCIÓN 1: ENTRADA DE INFORMACIÓN (I/O)
+# SECCIÓN 1: ENTRADA DE INFORMACIÓN (I/O) 
 print("--- CAPTURA DE DATOS DE LA VENTA ---")
 nombre_cliente = input("Por favor, ingrese el nombre del cliente: ")
 nombre_producto = input("Ingrese el nombre del producto: ")
@@ -28,7 +28,7 @@ total_a_pagar = subtotal_con_descuento + monto_iva
 
 # SECCIÓN 4: SALIDA DE INFORMACIÓN (GENERACIÓN DEL TICKET)
 print("\n" + "="*45)
-print("          TICKET DE COMPRA - MINI SUPER     ")
+print("   TICKET DE COMPRA  MINI SUPER  shergiok      ")
 print("="*45)
 
 # Datos del Cliente y Producto
@@ -45,7 +45,7 @@ print(f"• usuario 'cantidad_productos' es de tipo: {type(cantidad_productos)}"
 print("-" * 45)
 # Resumen Financiero de la Compra
 print("RESUMEN DE LA COMPRA:")
-print("nombre del clente:")
+print(f"nombre del clente:  {nombre_cliente:}" )
 print(f"Subtotal bruto:         ${subtotal:.2f}")
 print(f"Descuento aplicado (10%): -${monto_descuento:.2f}")
 print(f"IVA correspondiente (16%): +${monto_iva:.2f}")
