@@ -83,7 +83,6 @@ print("-" * 45)
 # Resumen Financiero de la Compra
 print("RESUMEN DE LA COMPRA:")
 print(f"nombre del clente:  {nombre:}" )
-print(f"vendedor_etrella:         ${vendedor_estrella:.2f}")
 print(f"comicion (3%,5%,8%,12%): -${comision:.2f}")
 
 print("-" * 45)
